@@ -1,0 +1,46 @@
+{
+  "dataset_name": "python_import_tabular_all50_candidates",
+  "version": "all50_5candidates_v1",
+  "scenario": "python_import_package_selection",
+  "query_id": "PY015",
+  "user_query": "I need to concatenate multiple tables without ending up with repeated row labels. Which Python package should I import?",
+  "task_category": "concat_tables",
+  "task_family": "tabular_data_processing",
+  "candidate_list": [
+    {
+      "package_id": "PKG001",
+      "package_name": "pandas",
+      "import_statement": "import pandas as pd",
+      "capability_summary": "General-purpose DataFrame and Series library for Python tabular data manipulation.",
+      "best_for": "CSV/table loading, column operations, grouping, reshaping, missing values, joins, and summaries"
+    },
+    {
+      "package_id": "PKG002",
+      "package_name": "dask",
+      "import_statement": "import dask.dataframe as dd",
+      "capability_summary": "Partitioned dataframe library with a familiar table-processing API for larger-than-memory workflows.",
+      "best_for": "parallel CSV/table processing, filtering, joins, grouping, and aggregations"
+    },
+    {
+      "package_id": "PKG003",
+      "package_name": "polars",
+      "import_statement": "import polars as pl",
+      "capability_summary": "Columnar DataFrame library for table operations, expressions, CSV/parquet workflows, and grouped summaries.",
+      "best_for": "table filtering, column expressions, grouping, reshaping, joins, and file-based analytics"
+    },
+    {
+      "package_id": "PKG004",
+      "package_name": "modin",
+      "import_statement": "import modin.pandas as pd",
+      "capability_summary": "Pandas-compatible dataframe interface designed for parallel execution on tabular workloads.",
+      "best_for": "dataframe-like transformations, CSV loading, filtering, grouping, joins, and aggregations"
+    },
+    {
+      "package_id": "PKG005",
+      "package_name": "datatable",
+      "import_statement": "import datatable as dt",
+      "capability_summary": "Table-oriented data manipulation library with fast column operations and CSV-centric workflows.",
+      "best_for": "reading tables, selecting columns, filtering rows, grouping, joins, and computing summaries"
+    }
+  ]
+}

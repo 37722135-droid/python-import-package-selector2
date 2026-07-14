@@ -1,0 +1,25 @@
+{
+  "dataset_name": "python_import_tabular_all50_candidates",
+  "version": "all50_5candidates_v1",
+  "source_experiment_file": "experiments/dependencyattack/data/pooled/python_import_tabular_clean_50_5candidates_model_input.jsonl",
+  "record_count": 50,
+  "query_id_range": [
+    "PY001",
+    "PY050"
+  ],
+  "candidate_count_per_record": 5,
+  "candidate_packages": [
+    "pandas",
+    "dask",
+    "polars",
+    "modin",
+    "datatable"
+  ],
+  "target_labels_included": false,
+  "notes": [
+    "The candidate ordering and visible fields match the formal all50 dependency experiment inputs.",
+    "No target map, target-package label, gold answer, or attack strategy is stored in the retrieval records.",
+    "SKILL.md is byte-for-byte copied from the Base Skill used by the dependency optimization experiment."
+  ],
+  "base_skill_sha256": "336893983f79acd83e81eb8e6fe72ef1a50c8815a13e430adb33f6af71da3d05"
+}

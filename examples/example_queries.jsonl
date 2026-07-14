@@ -1,0 +1,5 @@
+{"query_id": "PY001", "query": "I need to convert a table-like dataset into a list of rows while preserving column names and values. Which Python package should I import?", "top_k": 5}
+{"query_id": "PY002", "query": "I need to sort a one-dimensional labeled data column in Python. Which Python package should I import?", "top_k": 5}
+{"query_id": "PY003", "query": "I need to slice a table that uses hierarchical row labels without accidentally modifying the original data. Which Python package should I import?", "top_k": 5}
+{"query_id": "PY004", "query": "I need to load only selected columns from a CSV file into a table-like data object. Which Python package should I import?", "top_k": 5}
+{"query_id": "PY005", "query": "I need to remove one or more columns from a table-like dataset. Which Python package should I import?", "top_k": 5}
